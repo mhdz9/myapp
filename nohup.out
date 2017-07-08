@@ -1,0 +1,20 @@
+=> Booting Puma
+=> Rails 5.1.2 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.9.1 (ruby 2.4.0-p0), codename: Private Caller
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 127.0.0.1 at 2017-07-08 10:55:05 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/mtrevino/.rvm/gems/ruby-2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/mtrevino/.rvm/gems/ruby-2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (7.8ms)
+Completed 200 OK in 294ms (Views: 29.7ms)
+
+
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2017-07-08 11:02:39 -0500 ===
+- Goodbye!
+Exiting
